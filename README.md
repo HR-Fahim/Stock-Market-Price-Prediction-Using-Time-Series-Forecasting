@@ -1,1 +1,3 @@
-# Stock-Market-Price-Prediction-Using-Time-Series-Forecasting
+# Abstract
+
+The goal of this project is to use historical time series data to forecast and analyze NVIDIA's stock prices. To assess their predictive capabilities, we have analyzed contemporary machine learning methods (LSTM and XGBoost) and conventional statistical modeling (ARIMA). The Alpha Vantage API is the source of the data, which is then preprocessed for stationarity and subjected to seasonal decomposition analysis. Log-transformed closing prices are used to train and evaluate each model. With the lowest MAPE of 1.32%, the results demonstrate that the LSTM model performs noticeably better in forecasting accuracy than ARIMA and XGBoost. The research report shows how well deep learning algorithms can identify intricate temporal patterns in 􀏐inancial data.
